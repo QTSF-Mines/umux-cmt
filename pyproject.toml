@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "umux-cmt"
+version = "0.1.0"
+description = "Time-domain simulation of microwave SQUID multiplexers with coupled-mode theory"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Luke Wanner", email = "lawanner@mines.edu" },
+]
+keywords = ["SQUID", "multiplexer", "microwave", "resonator", "coupled-mode theory", "cryogenic detectors"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+# The package runs with any version in these ranges. Bit-for-bit agreement with the paper's numbers
+# (tests/test_*_equivalence.py) is verified only with the versions the reference values were captured with,
+# numpy 2.5.0 and scipy 1.18.0; install the "paper" extra to get exactly those. The seeded flux-response fits
+# also rely on scipy's differential_evolution drawing from numpy's global RandomState when no `rng` is given
+# (SciPy's SPEC 7 transition); umux_cmt.fitting.fit_lambda warns if that ever stops being the case.
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.15",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+examples = ["jupyter", "ipykernel", "nbformat", "nbclient"]
+dev = ["pytest"]
+paper = ["numpy==2.5.0", "scipy==1.18.0"]
+
+[project.urls]
+Homepage = "https://github.com/QTSF-Mines/umux-cmt"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "slow: exhaustive bit-faithfulness checks over whole sweeps (deselect with -m 'not slow')",
+]

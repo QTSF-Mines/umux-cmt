@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below and the software itself."
+type: software
+title: "umux_cmt: time-domain simulation of microwave SQUID multiplexers with coupled-mode theory"
+version: 0.1.0
+date-released: 2026-10-08
+license: MIT
+repository-code: "https://github.com/QTSF-Mines/umux-cmt"
+authors:
+  - family-names: Wanner
+    given-names: Luke
+    affiliation: "Colorado School of Mines"
+    email: lawanner@mines.edu
+preferred-citation:
+  type: article
+  title: "Time-Domain Simulation of Microwave SQUID Multiplexers using Coupled-Mode Theory"
+  authors:
+    - family-names: Wanner
+      given-names: Luke
+      affiliation: "Colorado School of Mines"
+    - family-names: Mates
+      given-names: Ben
+      affiliation: "National Institute of Standards and Technology"
+    - family-names: Van De Pontseele
+      given-names: Wouter
+      affiliation: "Colorado School of Mines"
+  year: 2026
+  notes: "Preprint; journal reference to be added."
