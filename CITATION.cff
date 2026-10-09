@@ -3,26 +3,32 @@ message: "If you use this software, please cite the paper below and the software
 type: software
 title: "umux_cmt: time-domain simulation of microwave SQUID multiplexers with coupled-mode theory"
 version: 0.1.0
-date-released: 2026-10-08
+date-released: 2026-10-09
 license: MIT
 repository-code: "https://github.com/QTSF-Mines/umux-cmt"
 authors:
   - family-names: Wanner
-    given-names: Luke
-    affiliation: "Colorado School of Mines"
+    given-names: "Luke A."
+    affiliation: "Department of Physics, Colorado School of Mines, Golden, Colorado 80401, USA"
     email: lawanner@mines.edu
 preferred-citation:
   type: article
   title: "Time-Domain Simulation of Microwave SQUID Multiplexers using Coupled-Mode Theory"
   authors:
     - family-names: Wanner
-      given-names: Luke
-      affiliation: "Colorado School of Mines"
+      given-names: "Luke A."
+      affiliation: "Department of Physics, Colorado School of Mines, Golden, Colorado 80401, USA"
+    - family-names: Kasch
+      given-names: Morgan
+      affiliation: "Department of Physics, Colorado School of Mines, Golden, Colorado 80401, USA"
     - family-names: Mates
       given-names: Ben
-      affiliation: "National Institute of Standards and Technology"
+      affiliation: "National Institute of Standards and Technology, Boulder, Colorado 80305, USA"
+    - family-names: Bennett
+      given-names: Doug
+      affiliation: "National Institute of Standards and Technology, Boulder, Colorado 80305, USA"
     - family-names: Van De Pontseele
       given-names: Wouter
-      affiliation: "Colorado School of Mines"
+      affiliation: "Department of Physics, Colorado School of Mines, Golden, Colorado 80401, USA"
   year: 2026
   notes: "Preprint; journal reference to be added."

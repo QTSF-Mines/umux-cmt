@@ -11,8 +11,8 @@ bias line, which is what makes the transient after a ramp reset look the way it 
 
 The package is the code behind
 
-> L. Wanner, J. A. B. Mates and W. Van De Pontseele, *Time-Domain Simulation of Microwave SQUID Multiplexers
-> using Coupled-Mode Theory* (2026).
+> L. A. Wanner, M. Kasch, B. Mates, D. Bennett and W. Van De Pontseele, *Time-Domain Simulation of Microwave
+> SQUID Multiplexers using Coupled-Mode Theory* (2026).
 
 Every result of the paper can be regenerated from the measurements shipped in `data/` with the example
 notebooks in `examples/`, and the numerics are kept identical to the code the paper was produced with

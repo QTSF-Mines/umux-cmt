@@ -1,7 +1,8 @@
 """umux_cmt: time-domain simulation of microwave SQUID multiplexers with coupled-mode theory.
 
 The package follows the paper "Time-Domain Simulation of Microwave SQUID
-Multiplexers using Coupled-Mode Theory" (Wanner, Mates, Van De Pontseele).
+Multiplexers using Coupled-Mode Theory" (Wanner, Kasch, Mates, Bennett,
+Van De Pontseele).
 
 Typical use::
 

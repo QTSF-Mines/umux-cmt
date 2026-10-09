@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [
-    { name = "Luke Wanner", email = "lawanner@mines.edu" },
+    { name = "Luke A. Wanner", email = "lawanner@mines.edu" },
 ]
 keywords = ["SQUID", "multiplexer", "microwave", "resonator", "coupled-mode theory", "cryogenic detectors"]
 classifiers = [
